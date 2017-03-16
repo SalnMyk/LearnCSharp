@@ -9,6 +9,9 @@ namespace UnitTest
         [TestMethod]
         public void TestMethod1()
         {
+            int x = 4;
+            int y = 4;
+            Assert.AreEqual(x, y);
         }
     }
 }
